@@ -3,8 +3,7 @@ class CreateFormattingFiles < ActiveRecord::Migration
     create_table :formatting_files do |t|
       t.string :name
       t.string :extention
-
-      t.timestamps null: false
+      t.timestamps
     end
   end
 end
