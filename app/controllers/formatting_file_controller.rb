@@ -1,5 +1,6 @@
 class FormattingFileController < ApplicationController
   def create
+    file = params[:file]
 
   end
 
